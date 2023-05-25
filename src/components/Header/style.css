@@ -1,0 +1,32 @@
+
+.user-right header{
+    background-color: #BF344D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    
+    
+  }
+
+  header h1{
+    margin: 15px;
+    color:#F2F2F2
+  }
+  header ul{
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 20px;
+  }
+  li{
+    font-weight: bold;
+    color:#F2F2F2;
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  
+
+
+

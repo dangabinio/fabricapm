@@ -1,0 +1,25 @@
+.container{
+    padding: 10px 0 0 32%;
+}
+#menu1{
+    background-color: darkgrey;
+    width: 36rem;
+    text-align: left;
+}
+.caret{
+    color: grey;
+    width: 10px;
+    position: relative;
+    left: 80%;
+}
+.dropdown-menu{
+    justify-content: center;
+    background-color: darkgrey;
+    width: 36rem;
+}
+
+.btn-buscar{
+    display: block;
+    margin-top: 10px;
+    width: 36rem;
+}

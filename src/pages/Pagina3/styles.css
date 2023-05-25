@@ -1,0 +1,50 @@
+
+.container{
+    margin-bottom: 29.5vh;
+}
+.container .consultar{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 50%;
+    padding-top: 2rem;
+}
+.consultar label{
+    font-size: 2rem;
+}
+.consultar input{
+    width: 23%;
+    height: 4rem;
+    background-color: #BFBFBF;
+    border: none;
+    border-radius: 4px;
+}
+.btn-buscar{
+    display: block;
+    margin-top: 10px;
+    width: 23%;
+}
+.btn-editar, .btn-excluir{
+    width: 100px;
+    margin-right: 20px;
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+}
+.btn-editar{
+    background-color: yellow;
+}
+.btn-editar :hover{
+    background-color: rgb(201, 201, 0);
+}
+.btn-excluir{
+    background-color: red;
+
+}
+.btn-excluir:hover{
+    background-color: rgb(214, 0, 0);
+}
+.table table thead{
+    background-color: black;
+    color: white;
+}

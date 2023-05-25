@@ -1,0 +1,57 @@
+.tela{
+    display: grid;
+    gap: 50%;
+  
+    margin: 15px;
+  }
+  .tela .cadastrar{
+    
+    display: flex;  
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  .cadastrar label{
+    font-size: 1.5rem;
+  }
+  .cadastrar input{
+    width: 23%;
+    height: 2.5rem;
+    background-color: #BFBFBF;
+    border: none;
+    border-radius: 4px;  
+  }
+  
+  .cadastrar .nivel{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .cadastrar select{
+    width: 23%;
+    height: 2.5rem;
+    background-color: #BFBFBF;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; 
+    
+  }
+  .cadastrar option{
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  
+  .cadastrar .btn{
+    background: #00D154;
+    font-weight: 700;
+    width: 23%;
+    padding: 16px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .cadastrar .btn:hover{
+    background-color: #00c05a;
+  }
+  
+  
